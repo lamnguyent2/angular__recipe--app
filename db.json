@@ -1,0 +1,284 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "ProjectName": "Project 1",
+      "Prices": 230000,
+      "DateofStart": "2001-02-20",
+      "TeamSize": 4
+    },
+    {
+      "ProjectName": "Project 2",
+      "Prices": 375000,
+      "DateofStart": "2002-02-20",
+      "TeamSize": 5,
+      "id": 2
+    },
+    {
+      "ProjectName": "Project 3",
+      "Prices": 180000,
+      "DateofStart": "2003-02-20",
+      "TeamSize": 6,
+      "id": 3
+    },
+    {
+      "ProjectName": "Project 4",
+      "Prices": 292000,
+      "DateofStart": "2004-02-20",
+      "TeamSize": 7,
+      "id": 4
+    },
+    {
+      "ProjectName": "Project 5",
+      "Prices": 684000,
+      "DateofStart": "2021-06-11",
+      "TeamSize": 3,
+      "id": 5
+    },
+    {
+      "ProjectName": "Project 6",
+      "Prices": 730000,
+      "DateofStart": "2021-06-25",
+      "TeamSize": 7,
+      "id": 6
+    },
+    {
+      "ProjectName": "Project 7",
+      "Prices": 200000,
+      "DateofStart": "2021-06-03",
+      "TeamSize": 3,
+      "id": 7
+    },
+    {
+      "ProjectName": "Project 8",
+      "Prices": 540000,
+      "DateofStart": "2021-07-02",
+      "TeamSize": 3,
+      "id": 8
+    },
+    {
+      "ProjectName": "Project 9",
+      "Prices": 960000,
+      "DateofStart": "2021-01-28",
+      "TeamSize": 5,
+      "id": 9
+    },
+    {
+      "ProjectName": "Project 10",
+      "Prices": 750000,
+      "DateofStart": "2021-03-31",
+      "TeamSize": 6,
+      "id": 10
+    },
+    {
+      "ProjectName": "Project 11",
+      "Prices": 675000,
+      "DateofStart": "2021-05-24",
+      "TeamSize": 4,
+      "id": 11
+    },
+    {
+      "ProjectName": "Project 12",
+      "Prices": 648000,
+      "DateofStart": "2021-12-02",
+      "TeamSize": 2,
+      "id": 12
+    }
+  ],
+  "tasks": [
+    {
+      "TaskName": "Task 1",
+      "Desscription": "gg 2",
+      "Project": "Project 1",
+      "Assigned_To": "design layout",
+      "Priority": "Nomal",
+      "Status": "Holding",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "TaskName": "Task 2",
+      "Desscription": "gg",
+      "Project": "Project 2",
+      "Assigned_To": "data management",
+      "Priority": "Hard",
+      "Status": "Holding"
+    },
+    {
+      "TaskName": "Task 3",
+      "Desscription": "gg2",
+      "Project": "Project 3",
+      "Assigned_To": "project management",
+      "Priority": "Hard",
+      "Status": "Holding",
+      "id": 3
+    },
+    {
+      "TaskName": "Task 4",
+      "Desscription": "gg 4",
+      "Project": "Project 4",
+      "Assigned_To": "project management",
+      "Priority": "Easy",
+      "Status": "Holding",
+      "id": 4
+    },
+    {
+      "TaskName": "Task 5",
+      "Desscription": "gg 4",
+      "Project": "Project 5",
+      "Assigned_To": "project management",
+      "Priority": "Easy",
+      "Status": "Holding",
+      "id": 5
+    },
+    {
+      "TaskName": "Task 6",
+      "Desscription": "dwdwd",
+      "Project": "Project 6",
+      "Assigned_To": "data management",
+      "Priority": "Hard",
+      "Status": "Holding",
+      "id": 6
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "TeamName": "East"
+    },
+    {
+      "id": 2,
+      "TeamName": "West"
+    },
+    {
+      "id": 3,
+      "TeamName": "South"
+    },
+    {
+      "id": 4,
+      "TeamName": "North"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "Username": "lamnguyenxyzt3",
+      "Fullname": "Lam Nguyễn",
+      "Email": "lamnguyenxyzt3@gmail.com",
+      "Password": "123123",
+      "TrangThai": "Active",
+      "TeamName": "West",
+      "Roles": "Leader"
+    },
+    {
+      "id": 2,
+      "Username": "lamnguyenxyzt2",
+      "Fullname": "Lam Thanh",
+      "Email": "lamnguyenxyzt2@gmail.com",
+      "Password": "12312345",
+      "TrangThai": "Active",
+      "TeamName": "North",
+      "Roles": "Leader"
+    },
+    {
+      "Fullname": "Long Thành",
+      "Username": "lamnguyenxyzt4",
+      "Password": "Lam0123456z",
+      "Roles": "Leader",
+      "Email": "lamnguyenxyzt4@gmail.com",
+      "TeamName": "West",
+      "TrangThai": "Active",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "Username": "lamnguyenxyzt5",
+      "Fullname": "Huyết Đao",
+      "Email": "lamnguyenxyzt5@gmail.com",
+      "Password": "123123123",
+      "TrangThai": "Active",
+      "TeamName": "South",
+      "Roles": "Leader"
+    },
+    {
+      "id": 5,
+      "Username": "lamnguyenxyzt6",
+      "Fullname": "Quách Tĩnh",
+      "Email": "lamnguyenxyzt44@gmail.com",
+      "Password": "123123123",
+      "TrangThai": "Active",
+      "TeamName": "East",
+      "Roles": "Leader"
+    },
+    {
+      "Fullname": "Văn Lâm",
+      "Username": "lamnguyent2",
+      "Password": "11111111",
+      "Roles": "Employee",
+      "Email": "lamnguyen@gmail.com",
+      "TeamName": "East",
+      "TrangThai": "Active",
+      "id": 6
+    },
+    {
+      "Fullname": "Huy Hoàng",
+      "Username": "huyhoang1111",
+      "Password": "huyhoag3232",
+      "Roles": "Employee",
+      "Email": "huyhoang@gmail.com",
+      "TeamName": "East",
+      "TrangThai": "Active",
+      "id": 7
+    },
+    {
+      "Fullname": "Bảo Quốc",
+      "Username": "baoquoc123",
+      "Password": "123123",
+      "Roles": "Employee",
+      "Email": "baoquoc@gmail.com",
+      "TeamName": "West",
+      "TrangThai": "Active",
+      "id": 8
+    },
+    {
+      "Fullname": "Huyết Kiếm",
+      "Username": "mautuoi123",
+      "Password": "ggggggggg",
+      "Roles": "Employee",
+      "Email": "huyetkiem@gmail.com",
+      "TeamName": "South",
+      "TrangThai": "Active",
+      "id": 9
+    },
+    {
+      "Fullname": "Huyết Long",
+      "Username": "huyetlong123",
+      "Password": "maudkkdlek",
+      "Roles": "Employee",
+      "Email": "huyetlong@gmail.com",
+      "TeamName": "South",
+      "TrangThai": "Active",
+      "id": 10
+    },
+    {
+      "Fullname": "Thanh Lam",
+      "Username": "lamnguyenxyzt3zt",
+      "Password": "Lam0123456",
+      "Roles": "Employee",
+      "Email": "lamnguyent2@gmail.com",
+      "TeamName": "North",
+      "TrangThai": "Active",
+      "id": 11
+    },
+    {
+      "Fullname": "Thành Công",
+      "Username": "lamnguyenxyzt4z",
+      "Password": "123456zzzz",
+      "Roles": "Employee",
+      "Email": "lamxyz@gmai.com",
+      "TeamName": "South",
+      "TrangThai": "Active",
+      "id": 12
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<!-- MENU SECTION END-->
+<div class="content-wrapper" *ngFor="let userzzzz of userzz">
+    <div class="container" *ngIf="userzzzz.Roles=='Leader'">
+        <h1>Xin chào Leader!</h1>
+    </div>
+    <div class="container" *ngIf="userzzzz.Roles=='Employee'">
+        <h1>Xin chào Employee</h1>
+    </div>
+</div>
+
+<div class="content-wrapper" *ngIf="!data">
+    <div class="container">
+        <h1>Vui lòng đăng nhập</h1>
+    </div>
+</div>
